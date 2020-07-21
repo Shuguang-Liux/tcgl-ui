@@ -28,9 +28,9 @@ module.exports = {
                 target: 'http://localhost:8082/',
                 /* 允许跨域 */
                 changeOrigin: true,
-                pathRewrite: {
-                    '^/api': ''
-                }
+                // pathRewrite: {
+                //     '^/api': ''
+                // }
             },
         },
     },
